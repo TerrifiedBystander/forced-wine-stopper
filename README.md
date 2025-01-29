@@ -1,6 +1,9 @@
 # Wine Process Manager
 
-A robust bash script for managing and terminating Wine processes with graceful fallback mechanisms.
+A bash script that finds and terminates lingering Wine processes. 
+
+Wine doesn't always clean up after itself - processes can remain after closing programs, crashes, or other scenarios. 
+This script handles cleanup for any Wine containers including Lutris, Steam (Proton), and Heroic Launcher, using graceful termination with fallback mechanisms.
 
 ## Features
 
